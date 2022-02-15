@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColorWhite"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_20dp"
+    tools:context=".ui.home.fragment.AirQualityDetailsFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCityName"
+        style="@style/StyleNormalTextView.XXNormalBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Mumbai" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCurrentAQI"
+        style="@style/StyleNormalTextView.XNormalBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/lbl_current_aqi" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvQuality"
+        style="@style/StyleNormalTextView.XNormalBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/dimen_10dp"
+        android:paddingVertical="@dimen/dimen_4dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        tools:text="@string/lbl_quality_poor" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="@dimen/dimen_15dp"
+        android:layout_height="match_parent"
+        />
+
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_text_go_back"
+        android:textColor="@color/textColorWhite"
+        android:background="@color/bgProximityTheme"/>
+
+</LinearLayout>

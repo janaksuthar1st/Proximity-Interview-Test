@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Practical Janak</string>
+
+    <string name="default_loading_message">Loading…</string>
+    <string name="default_internet_message">No Internet Connection</string>
+
+    <string name="msg_no_data_found">No Data Found</string>
+    <string name="msg_no_internet_home_screen">No internet connection available. Please turn on your internet &amp; try again.</string>
+
+    <string name="btn_text_ok">OK</string>
+    <string name="btn_text_go_back">Go Back</string>
+
+    <!--AQI List Screen-->
+    <string name="title_coding_assignment_android">Coding Assignment - Android</string>
+    <string name="title_air_quality_monitoring">Air Quality Monitoring</string>
+    <string name="lbl_city">City</string>
+    <string name="lbl_current_aqi">Current AQI</string>
+    <string name="lbl_quality">Quality</string>
+
+    <string name="lbl_current_aqi_value">Current AQL : %s</string>
+
+    <string name="lbl_quality_good">Good</string>
+    <string name="lbl_quality_satisfactory">Satisfactory</string>
+    <string name="lbl_quality_moderate">Moderate</string>
+    <string name="lbl_quality_poor">Poor</string>
+    <string name="lbl_quality_very_poor">Very Poor</string>
+    <string name="lbl_quality_severe">Severe</string>
+    <string name="lbl_quality_na">N/A</string>
+    <!--AQI List Screen-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
